@@ -4,10 +4,11 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 #include <avr/pgmspace.h>
-//#include <Arduino.Json.h>
 
 
+//Wifi Name
 const char* ssid = "AS-HACKATHON";
+//Wifi Password
 const char* password = "Hackathon2019";
 char* getlink1 = "http://10.16.56.127:8888/api/addData?pressure=";
 char* getlink2= "&userId=5dd8fdc77a591b098cd721bb&pipeName=K2";
